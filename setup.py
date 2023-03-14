@@ -26,8 +26,8 @@ setuptools.setup(
     keywords='rarbg torrent rarbgcli rarbgapi cli api scraper rarbg-cli rarbg-api rarbg-scraper',
     entry_points={
         'console_scripts': [
-            'rarbgcli=rarbgcli.rarbgcli:cli',
-            'rarbg=rarbgcli.rarbgcli:cli',
+            'rarbgcli=rarbgcli.__main__:cli',
+            'rarbg=rarbgcli.__main__:cli',
         ]
     },
 )
